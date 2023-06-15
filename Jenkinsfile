@@ -8,7 +8,7 @@ pipeline {
             }
         }
     
-       stages {
+      
         stage('** PHP APP DEPLOYMENT ON APACHE SERVER**') {
             steps {
                 input 'Do yo want to deploy on staging environment ?'
